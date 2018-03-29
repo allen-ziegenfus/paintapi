@@ -1,0 +1,19 @@
+<!doctype html>
+<style>
+    #example {
+        width: 500px;
+        height: 500px;
+        background-image: paint(pattern);
+    }
+    
+    .example2 {
+        background-size: 50%;
+    }
+</style>
+
+<div id="example" class="example1"></div>
+<div id="example" class="example2"></div>
+
+<script>
+    CSS.paintWorklet.addModule('pattern.js');
+</script>

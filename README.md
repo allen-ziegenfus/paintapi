@@ -1,11 +1,1 @@
-
-<!doctype html>
-<style>
-  textarea {
-    background-image: paint(checkerboard);
-  }
-</style>
-<textarea></textarea>
-<script>
-  CSS.paintWorklet.addModule('checkerboard.js');
-</script>
+This is a simple test of the paint api
